@@ -1,0 +1,16 @@
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.csproj.AssemblyReference.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.AssemblyInfoInputs.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.AssemblyInfo.cs
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.csproj.CoreCompileInputs.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\bin\Debug\net5.0\Controle_Partidas.exe
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\bin\Debug\net5.0\Controle_Partidas.deps.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\bin\Debug\net5.0\Controle_Partidas.runtimeconfig.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\bin\Debug\net5.0\Controle_Partidas.runtimeconfig.dev.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\bin\Debug\net5.0\Controle_Partidas.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\bin\Debug\net5.0\ref\Controle_Partidas.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\bin\Debug\net5.0\Controle_Partidas.pdb
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\ref\Controle_Partidas.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.pdb
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Controle_Partidas\obj\Debug\net5.0\Controle_Partidas.genruntimeconfig.cache

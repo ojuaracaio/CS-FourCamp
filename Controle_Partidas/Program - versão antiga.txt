@@ -1,0 +1,63 @@
+﻿using System;
+using System.Threading;
+
+namespace Controle_Partidas
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Juiz juiz = new Juiz("Carlos",179,"Alta","Sim");
+            string opcao, opcao2;
+            const int TEMPOLIMITE = 110;
+
+            Console.WriteLine("Bem-vindo ao controlador de partidas");
+            Console.WriteLine("A bola está disponível? (s)im ou (n)ão?");
+            opcao = Console.ReadLine();
+            while(opcao != "n" && opcao != "N")
+            {
+                if (opcao == "s" || opcao == "S")
+                {
+                    Console.WriteLine("O juiz está presente? (s)im ou (n)ão?");
+                    opcao2 = Console.ReadLine();
+                    while (opcao2 != "n" && opcao2 != "N")
+                    {
+                        if (opcao2 == "s" || opcao2 == "S")
+                        {
+                            Console.WriteLine("Partida iniciada.");
+                            for (int i = 0; i < TEMPOLIMITE; i++)
+                            {
+                                Console.Write("-");
+                                Thread.Sleep(25);
+                            }
+                            Console.WriteLine();
+                            Console.WriteLine("Fim da partida.");
+                            Console.WriteLine("\nDados do juiz\n");
+                            Console.WriteLine("Nome:",juiz.nome);
+                            Console.WriteLine("Altura:", juiz.altura);
+                            Console.WriteLine("Certificação FIFA:", juiz.certificacao);
+                            Console.WriteLine("Experiência:",juiz.experiencia);
+                            //continuar
+                            return;
+                        }
+                        Console.WriteLine("Opcão inválida. Tente novamente.");
+                        opcao2 = Console.ReadLine();
+                    }
+                    Console.WriteLine("Não é possível jogar sem juiz.");
+                
+                    break;
+                }
+
+                Console.WriteLine("Opcão inválida. Tente novamente.");
+                opcao = Console.ReadLine();
+                
+            }
+            if (opcao == "n" || opcao == "N")
+            {
+                Console.WriteLine("Não é possível jogar sem bola.");
+            }
+            Console.WriteLine("Erro. Não foi possível iniciar a partida.");
+           
+        }
+    }
+}

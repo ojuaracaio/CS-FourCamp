@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "13c9648a-f05e-47c3-bb85-362be03a9b09": {
+      "ProjectGuid": "13c9648a-f05e-47c3-bb85-362be03a9b09",
+      "DisplayName": "Teste",
+      "ColorIndex": 0
+    },
+    "179b3536-9633-4aaf-b882-0fa5b3ef633a": {
+      "ProjectGuid": "179b3536-9633-4aaf-b882-0fa5b3ef633a",
+      "DisplayName": "Arquitetura",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
