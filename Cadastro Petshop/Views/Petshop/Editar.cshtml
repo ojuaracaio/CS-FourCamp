@@ -1,0 +1,19 @@
+﻿@model Animal
+@{
+    ViewData["Title"] = "Editar Pet";
+}
+
+<h1>Editar cadastro de pet</h1>
+<hr />
+<form asp-action="Editar"> 
+
+    <input asp-for="AnimalID"/>
+    <partial name="_Form"/>
+
+    <div class="my-3">
+        <input type="submit" value="Editar" class="btn btn-success"/> 
+        <a asp-action="Listar" class="btn btn-primary">Pets Cadastrados</a>
+    </div>
+    
+
+</form>

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@if(TempData["msg"] != null)
+{
+    <div class="alert alert-primary">@TempData["msg"]</div>
+}
+
+<a asp-action="Cadastrar">Cadastrar Produto</a>
+
+<table class="table">
+
+    <tr>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Quantidade</th>
+    </tr>
+    @if(ViewBag.produtos == null)
+    {
+        <tr>
+            <td>erro</td>
+            <td>erro</td>
+            <td>erro</td>
+        </tr>
+    }
+    @foreach (Produto p in ViewBag.produtos)
+    {
+    
+        <tr>
+            <td>@p.Nome</td>
+            <td>@p.Preco</td>
+            <td>@p.Quantidade</td>
+        </tr>    
+    }
+</table>
+

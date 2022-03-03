@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Amigos da Mel";
+}
+<h2>Bem-vindo ao Sistema de Cadastro de Pets.</h2><br />
+<img src="~/img/filhotes.jpg" width="500px"/><br>
+
+<div class="card my-3" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Animais Cadastrados</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Total</h6>
+    <p class="card-text">@ViewBag.quantAnimais</p>
+  </div>
+</div>
+
+<a asp-action="Cadastrar" class="btn btn-success">Cadastrar Pet</a>
+<a asp-action="Listar" class="btn btn-primary">Pets Cadastrados</a>

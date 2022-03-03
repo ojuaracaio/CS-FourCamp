@@ -1,57 +1,59 @@
-﻿using System;
+﻿using Banco_pt1.Exception;
+using System;
 
-public class Conta
+public abstract class Conta
 {
-    string numero;
-    decimal saldo;
-    Cliente cliente;
+    public string Numero { get; set; }
+    private protected decimal Saldo { get; set; }
+    public Cliente Cliente { get; set; }
 
-    public Conta(string numeroConta, Cliente clienteConta)
+    public Conta()
     {
-        saldo = 0;
-        numero = numeroConta;
-        cliente = clienteConta;
-        //Console.WriteLine($"O cliente {cliente.nome} criou a conta nº {numeroConta}.");
-        atualizarTipo();
 
     }
 
     public void atualizarTipo()
     {
-        if (saldo < 5000)
+        if (Saldo < 5000)
         {
             //comum
-            cliente.tipo = TipoCliente.Comum;
+            Cliente.Tipo = TipoCliente.Comum;
         }
-        else if (saldo < 15000)
+        else if (Saldo < 15000)
         {
             //super
-            cliente.tipo = TipoCliente.Super;
+            Cliente.Tipo = TipoCliente.Super;
         }
         else
         {
             //premium
-            cliente.tipo = TipoCliente.Premium;
+            Cliente.Tipo = TipoCliente.Premium;
         }
     }
 
-    public void imprimirDados()
-    {
-        //nome e cpf
-        Console.WriteLine($"Cliente: {cliente.nome} / CPF: {cliente.cpf}");
-        //numero
-        Console.WriteLine($"Número: {numero}");
-        //saldo
-        Console.WriteLine($"Saldo: {saldo}");
-        //tipo
-        Console.WriteLine($"Tipo da Conta: {cliente.tipo}");
-
-    }
+    public abstract void imprimirDados();
 
     public void depositar(decimal quantia)
     {
-        saldo += quantia;
-        Console.WriteLine($"O saldo após o depósito é de R${saldo}");
+        Saldo += quantia;
+        Console.WriteLine($"O saldo após o depósito é de R${string.Format("{0:0.00}", Saldo)}");
+        atualizarTipo();
+    }
+
+    public void transferir(decimal quantia)
+    {
+        if (quantia <= 0)
+        {
+            throw new TransferException("Erro! Só é possível transferir valores maiores que R$ 0.");
+        } else if(quantia <= Saldo)
+        {
+            Console.WriteLine("Transferência realizada com sucesso!");
+            Saldo -= quantia;
+        } else
+        {
+            throw new TransferException("Erro! Saldo Insuficiente.");
+        }
+        Console.WriteLine($"Saldo atual: {string.Format("{0:0.00}", Saldo)}");
         atualizarTipo();
     }
 }

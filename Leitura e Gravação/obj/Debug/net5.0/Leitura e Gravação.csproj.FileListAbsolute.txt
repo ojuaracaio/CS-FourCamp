@@ -1,0 +1,16 @@
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\bin\Debug\net5.0\Leitura e Gravação.exe
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\bin\Debug\net5.0\Leitura e Gravação.deps.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\bin\Debug\net5.0\Leitura e Gravação.runtimeconfig.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\bin\Debug\net5.0\Leitura e Gravação.runtimeconfig.dev.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\bin\Debug\net5.0\Leitura e Gravação.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\bin\Debug\net5.0\ref\Leitura e Gravação.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\bin\Debug\net5.0\Leitura e Gravação.pdb
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.csproj.AssemblyReference.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.AssemblyInfoInputs.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.AssemblyInfo.cs
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.csproj.CoreCompileInputs.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\ref\Leitura e Gravação.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.pdb
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Leitura e Gravação\obj\Debug\net5.0\Leitura e Gravação.genruntimeconfig.cache

@@ -1,0 +1,83 @@
+﻿@model List<Animal>
+@{
+    ViewData["Title"] = "Pets Cadastrados";
+}
+
+<mensagem texto="@TempData["msg"]"></mensagem>
+
+<h1>Pets Cadastrados</h1>
+
+<form class="form-inline mb-3">
+    <input type="text" class="form-control mr-2" name="nomeBusca" placeholder="Buscar um pet"/>
+    <input type="submit" class="btn btn-success" value="Buscar"/>
+</form>
+
+@if(Model.Count == 0)
+{
+    <mensagem texto="Nenhum animal encontrado." class="my-3 alert alert-danger"></mensagem>
+}
+
+@if(Model != null) {
+    <table class="table">
+        <tr>
+            <th>Nome</th>
+            <th>Espécie</th>
+            <th>Idade</th>
+            <th>Data de Nascimento</th>
+            <th>Peso</th>
+            <th>Castrado</th>
+            <th>Ações</th>
+        </tr>
+        @foreach (Animal a in Model)
+        {
+            <tr>
+                <td>@a.Nome</td>
+                <td>@a.Especie</td>
+                <td>@a.Idade</td>
+                <td>@a.DataNascimento.ToShortDateString()</td>
+                <td>@a.Peso</td>
+                <td>@(a.Castrado?"Sim":"Não")</td>
+                <td>
+                    <a asp-action="editar" asp-route-id="@a.AnimalID" class="btn btn-warning btn-sm">Editar</a>
+                    <button onclick="IdAnimal.value = @a.AnimalID" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                        Excluir
+                    </button>
+                    
+                    
+                </td>
+            </tr>
+        }
+
+    </table>
+} else {
+    <p>Nenhum pet foi cadastrado ainda.</p>
+}
+
+<a asp-action="Cadastrar" class="btn btn-success">Cadastrar Pet</a>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Tem certeza que deseja excluir esse pet?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+        <form asp-action="Excluir">
+            <input type="hidden" name="id" id="IdAnimal"/>
+            <input type="submit" value="Excluir" class="btn btn-danger btn-sm"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

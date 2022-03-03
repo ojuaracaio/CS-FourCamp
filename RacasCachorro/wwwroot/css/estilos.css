@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+p{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: large;
+}
+
+ul{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    margin: 0px auto;
+}
+.boxFlex{
+    display: flex;
+    text-align: center;
+    height: auto;    
+}
+
+.center{
+  align-items: center;
+  width: auto;
+  margin: auto; 
+  padding: 0px 20px; 
+}
+
+.semPontos {
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    margin: 10px;
+}
+
+.fundoCinza {
+    background-color: rgb(224, 224, 224);
+}
+
+a{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+﻿@model Animal
+
+    <div class="mb-3">
+        <label asp-for="Nome">Nome do Pet</label>
+        <input asp-for="Nome" class="form-control" placeholder="Insira o nome do seu pet. ex: Mel"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Especie">Espécie do Pet</label>
+        <select asp-for="Especie" asp-items="@Html.GetEnumSelectList<Especies>()" class="form-control">
+            <option>Selecione</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Idade">Idade do Pet</label>
+        <input asp-for="Idade" class="form-control" placeholder="Insira quantos anos seu pet tem. ex: 12" min="0"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DataNascimento"></label>
+        <input asp-for="DataNascimento" class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Peso">Peso do Pet</label>
+        <input asp-for="Peso" type="number" class="form-control" placeholder="Insira quantos quilos seu pet tem. ex: 8" min="0"/>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Castrado"></label>
+        <input asp-for="Castrado"/>
+    </div>
+
+

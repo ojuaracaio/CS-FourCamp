@@ -1,0 +1,16 @@
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\bin\Debug\net5.0\Exercicio-1.exe
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\bin\Debug\net5.0\Exercicio-1.deps.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\bin\Debug\net5.0\Exercicio-1.runtimeconfig.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\bin\Debug\net5.0\Exercicio-1.runtimeconfig.dev.json
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\bin\Debug\net5.0\Exercicio-1.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\bin\Debug\net5.0\ref\Exercicio-1.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\bin\Debug\net5.0\Exercicio-1.pdb
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.csproj.AssemblyReference.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.AssemblyInfoInputs.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.AssemblyInfo.cs
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.csproj.CoreCompileInputs.cache
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\ref\Exercicio-1.dll
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.pdb
+C:\Users\caicangussu\Documents\GitHub\CS-FourCamp\CS-FourCamp\Exercicio-1\obj\Debug\net5.0\Exercicio-1.genruntimeconfig.cache
